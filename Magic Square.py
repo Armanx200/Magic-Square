@@ -9,7 +9,7 @@ def MagicSquare(n): #only works for odd numbers
             col -= 1
         else:
             row -= 1
-            col -= 1
+            col += 1
         row = (row + n) % n
         col = (col + n) % n
 
